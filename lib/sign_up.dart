@@ -101,11 +101,11 @@ class SignUpPage extends StatelessWidget {
             //sign up button
             GestureDetector(
               onTap: () {
-                // Navigator.push(
-                //   context,
-                //   MaterialPageRoute(builder: (context) => HomePage()),
-                // );
-           _registration();
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => HomePage()),
+                );
+         //  _registration();
               },
               child: Container(
                 height: 70,

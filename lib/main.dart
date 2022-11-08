@@ -82,7 +82,7 @@ class _ProviderDemoScreenState extends State<ProviderDemoScreen> {
     return Scaffold(
       backgroundColor: Colors.grey[300],
       appBar: AppBar(
-        title: const Text("Provider Demo"),
+        title: const Text("Provider Pratice"),
       ),
       body: Center(
         child: GestureDetector(

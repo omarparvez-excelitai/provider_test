@@ -3,6 +3,12 @@ class SignUpBody{
   String phone;
   String email;
   String password;
+
+
+
+
+
+
   SignUpBody({
     required this.name,
     required this.phone,

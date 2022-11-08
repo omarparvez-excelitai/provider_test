@@ -6,8 +6,8 @@ import 'package:provider_test/second_page.dart';
 
 import 'data_class.dart';
 
-class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
+class HomePage extends StatelessWidget with ChangeNotifier {
+ HomePage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -72,8 +72,9 @@ class HomePage extends StatelessWidget {
                         );
                       }else{
 
-                      context.read<DataClass>().x++;
-                      //  context.read<DataClass>().incrementX();
+
+
+                  context.read<DataClass>().incrementX();
                       }
                     },),
                   Spacer(),

@@ -71,13 +71,13 @@ class SecondPage extends StatelessWidget {
                               )
                           );
                         }else{
-                          Provider.of<DataClass>(context, listen: false).x--;
-                          print("X value  ${Provider.of<DataClass>(context, listen: false).x}");
-                          print("X value  ${Provider.of<DataClass>(context, listen: false).x}");
-                          print("X value  ${Provider.of<DataClass>(context, listen: false).x}");
+                          // Provider.of<DataClass>(context, listen: false).x--;
+                          // print("X value  ${Provider.of<DataClass>(context, listen: false).x}");
+                          // print("X value  ${Provider.of<DataClass>(context, listen: false).x}");
+                          // print("X value  ${Provider.of<DataClass>(context, listen: false).x}");
 
 
-                   //  Provider.of<DataClass>(context, listen: false).decrementX();
+                 Provider.of<DataClass>(context, listen: false).decrementX();
                         }
                       },
                       child: Container(

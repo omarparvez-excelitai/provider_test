@@ -7,6 +7,7 @@ import 'package:provider_test/signup_model.dart';
 class DataClass extends ChangeNotifier {
  // int _x = 0;
   int x =0;
+
  // int get x => _x;
   bool loading = false;
   bool isBack = false;
